@@ -11,6 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.Properties;
 import java.util.logging.Logger;
 
 public class Otus {
@@ -20,7 +21,7 @@ public class Otus {
     private WebDriverWait wait;
 
     @BeforeClass
-    public void StartUp(){
+    public void startUp(){
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("headless");
@@ -32,12 +33,15 @@ public class Otus {
     }
 
     @AfterClass
-    public void End(){
+    public void end(){
         if (driver!=null)
             driver.quit();
     }
 
-    private void auth() throws InterruptedException  {
+    private void auth() {
+        Properties property = new Properties();
+        String login = property.getProperty("LOGIN");
+        String pass = property.getProperty("PASSWORD");
         driver.get("https://otus.ru");
         logger.info("Сайт открыт");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class=\"header2__auth js-open-modal\"]")));
@@ -49,14 +53,14 @@ public class Otus {
         logger.info("Авторизация прошла");
     }
 
-    private void my() throws InterruptedException  {
+    private void goSectionYourself () {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@href=\"/learning/\"])[1]")));
         driver.get("https://otus.ru/lk/biography/personal/");
         logger.info("Раздел о себе открыт");
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@title=\"Сохранить и продолжить\"]")));
     }
 
-    private void addMy() throws InterruptedException {
+    private void dataLk() {
         //Очистка данных
         driver.findElement(By.xpath("//input[@data-title=\"Имя\"]")).clear();
         driver.findElement(By.xpath("//input[@data-title=\"Фамилия\"]")).clear();
@@ -106,7 +110,7 @@ public class Otus {
         logger.info("Данные заполнены");
     }
 
-    private void clear() throws InterruptedException {
+    private void clear() {
         driver.findElement(By.xpath("//input[@title=\"Полный день\"]//..")).click();
         driver.findElement(By.xpath("(//button[text() = \"Удалить\"])[2]")).click();
         driver.findElement(By.xpath("(//button[text() = \"Удалить\"])[4]")).click();
@@ -116,7 +120,7 @@ public class Otus {
         logger.info("Данные очищены");
     }
 
-    private void check() throws InterruptedException {
+    private void check() {
         //Проверка ранее введённых данных в ЛК
         Assert.assertEquals("Илья", driver.findElement(By.xpath("//input[@data-title=\"Имя\"]")).getAttribute("value"));
         logger.info("Имя - ОК");
@@ -166,32 +170,32 @@ public class Otus {
 
     }
 
-
     @Test
-    public void PersonalArea() throws InterruptedException  {
+    public void addingValidatingData ()  {
         //Авторизация
         auth();
         //Переход в раздел о себе
-        my();
+        goSectionYourself();
         //Заполнение данных
-        addMy();
-
-    }
-
-    @Test
-    public void CheckPersonalArea() throws InterruptedException{
+        dataLk();
+        //Закрытие драйвера
+        driver.quit();
+        //Поднять драйвер
+        driver = new ChromeDriver();
+        logger.info("Драйвер поднят");
+        driver.manage().window().maximize();
+        wait = new WebDriverWait(driver, 10);
         //Авторизация
         auth();
         //Переход в раздел о себе
-        my();
+        goSectionYourself();
         //Проверка данных
         check();
         //Очистка данных
         clear();
 
+
     }
-
-
 
 
 

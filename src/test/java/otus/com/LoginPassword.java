@@ -1,3 +1,5 @@
+package otus.com;
+
 public class LoginPassword {
 
     public static final String LOGIN = "pantik96@mail.ru";

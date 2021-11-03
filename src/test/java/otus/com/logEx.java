@@ -1,3 +1,5 @@
+package otus.com;
+
 import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 

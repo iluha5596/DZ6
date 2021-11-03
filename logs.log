@@ -1,0 +1,404 @@
+2021-10-24 15:23:21,793 INFO j.u.l.Logger [main] Р”СЂР°Р№РІРµСЂ РїРѕРґРЅСЏС‚
+2021-10-24 15:23:39,254 INFO j.u.l.Logger [main] РЎР°Р№С‚ РѕС‚РєСЂС‹С‚
+2021-10-24 15:24:31,448 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-24 15:24:50,464 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-24 15:24:52,034 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-24 15:25:05,875 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-24 15:25:12,091 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-24 15:25:19,232 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-24 15:25:32,268 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-24 15:25:33,832 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-24 15:25:44,528 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-24 15:25:44,625 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-24 15:25:44,642 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-24 15:25:44,658 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-24 15:25:44,677 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-24 15:25:44,695 INFO j.u.l.Logger [main] Город - ОК
+2021-10-24 15:25:44,714 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-24 15:25:44,729 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-24 15:25:44,748 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-24 15:25:44,768 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-24 15:25:44,783 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-24 15:25:44,799 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-24 15:25:44,814 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-24 15:25:44,829 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-24 15:25:44,847 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-24 15:25:44,871 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-24 15:25:51,208 INFO j.u.l.Logger [main] Данные очищены
+2021-10-28 12:02:47,107 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:02:50,426 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:03:39,219 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:03:42,448 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:05:19,943 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:05:35,442 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:05:37,556 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 12:05:59,815 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 12:06:09,895 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 12:06:50,842 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:10:40,604 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:10:56,073 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:10:57,676 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 12:11:22,147 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 12:11:31,576 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 12:11:33,322 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:11:54,690 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:11:56,747 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 12:13:52,524 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 12:13:52,584 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-28 12:13:52,610 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-28 12:13:52,638 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-28 12:13:52,657 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-28 12:13:52,685 INFO j.u.l.Logger [main] Город - ОК
+2021-10-28 12:13:52,714 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-28 12:13:52,741 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-28 12:13:52,761 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-28 12:13:52,789 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-28 12:13:52,805 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-28 12:13:52,825 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-28 12:13:52,849 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-28 12:13:52,865 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-28 12:13:52,881 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-28 12:13:52,918 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-28 12:14:01,137 INFO j.u.l.Logger [main] Данные очищены
+2021-10-28 12:29:20,015 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:29:31,678 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:29:33,782 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 12:29:52,352 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 12:29:59,944 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 12:30:01,686 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 12:30:47,217 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 12:30:48,804 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 12:31:03,062 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 12:31:03,132 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-28 12:31:03,149 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-28 12:31:03,176 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-28 12:31:03,203 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-28 12:31:03,232 INFO j.u.l.Logger [main] Город - ОК
+2021-10-28 12:31:03,249 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-28 12:31:03,265 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-28 12:31:03,297 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-28 12:31:03,337 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-28 12:31:03,351 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-28 12:31:03,366 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-28 12:31:03,390 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-28 12:31:03,405 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-28 12:31:03,431 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-28 12:31:03,467 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-28 12:31:10,577 INFO j.u.l.Logger [main] Данные очищены
+2021-10-28 17:44:58,891 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 17:45:11,597 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 17:45:13,187 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 17:45:25,281 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 17:45:31,615 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 17:45:33,363 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 17:45:45,779 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 17:45:57,993 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 17:45:59,602 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 17:46:11,409 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 17:50:09,705 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 17:50:37,960 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 17:50:40,154 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 17:50:58,469 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 17:51:08,542 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 17:51:10,351 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 17:51:33,425 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 17:51:34,958 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 17:51:49,111 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 17:51:49,158 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-28 17:51:49,175 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-28 17:51:49,191 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-28 17:51:49,209 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-28 17:51:49,229 INFO j.u.l.Logger [main] Город - ОК
+2021-10-28 17:51:49,248 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-28 17:51:49,264 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-28 17:51:49,285 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-28 17:51:49,304 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-28 17:51:49,320 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-28 17:51:49,335 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-28 17:51:49,351 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-28 17:51:49,366 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-28 17:51:49,381 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-28 17:51:49,409 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-28 17:51:55,740 INFO j.u.l.Logger [main] Данные очищены
+2021-10-28 18:01:06,785 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 18:01:26,355 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 18:01:28,013 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 18:01:39,482 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 18:01:46,263 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-28 18:01:48,028 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-28 18:02:03,037 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-28 18:02:04,590 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-28 18:02:37,293 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-28 18:02:37,342 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-28 18:02:37,358 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-28 18:02:37,373 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-28 18:02:37,392 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-28 18:02:37,411 INFO j.u.l.Logger [main] Город - ОК
+2021-10-28 18:02:37,430 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-28 18:02:37,447 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-28 18:02:37,465 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-28 18:02:37,485 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-28 18:02:37,499 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-28 18:02:37,514 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-28 18:02:37,529 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-28 18:02:37,543 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-28 18:02:37,558 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-28 18:02:37,582 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-28 18:02:43,650 INFO j.u.l.Logger [main] Данные очищены
+2021-10-30 12:03:57,456 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:05:18,169 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:05:20,908 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-30 12:05:22,036 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-30 12:05:26,206 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-30 12:05:30,821 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-30 12:05:32,559 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:05:37,005 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-30 12:05:38,017 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-30 12:05:41,366 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-30 12:05:41,429 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-30 12:05:41,446 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-30 12:05:41,462 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-30 12:05:41,502 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-30 12:05:41,521 INFO j.u.l.Logger [main] Город - ОК
+2021-10-30 12:05:41,550 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-30 12:05:41,589 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-30 12:05:41,608 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-30 12:05:41,643 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-30 12:05:41,688 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-30 12:05:41,719 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-30 12:05:41,735 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-30 12:05:41,749 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-30 12:05:41,772 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-30 12:05:41,798 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-30 12:05:45,659 INFO j.u.l.Logger [main] Данные очищены
+2021-10-30 12:10:34,721 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:12:46,991 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:14:19,012 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:14:37,149 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-30 12:14:39,235 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-30 12:14:56,811 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-30 12:15:06,751 INFO j.u.l.Logger [main] Данные заполнены
+2021-10-30 12:15:08,508 INFO j.u.l.Logger [main] Драйвер поднят
+2021-10-30 12:15:26,578 INFO j.u.l.Logger [main] Сайт открыт
+2021-10-30 12:15:28,081 INFO j.u.l.Logger [main] Авторизация прошла
+2021-10-30 12:16:00,063 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-10-30 12:16:00,154 INFO j.u.l.Logger [main] Имя - ОК
+2021-10-30 12:16:00,172 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-10-30 12:16:00,190 INFO j.u.l.Logger [main] День рождения - ОК
+2021-10-30 12:16:00,207 INFO j.u.l.Logger [main] Страна - ОК
+2021-10-30 12:16:00,225 INFO j.u.l.Logger [main] Город - ОК
+2021-10-30 12:16:00,243 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-10-30 12:16:00,258 INFO j.u.l.Logger [main] Почта - ОК
+2021-10-30 12:16:00,276 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-10-30 12:16:00,294 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-10-30 12:16:00,309 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-10-30 12:16:00,324 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-10-30 12:16:00,338 INFO j.u.l.Logger [main] Пол - ОК
+2021-10-30 12:16:00,353 INFO j.u.l.Logger [main] Компания - ОК
+2021-10-30 12:16:00,367 INFO j.u.l.Logger [main] Должность - ОК
+2021-10-30 12:16:00,390 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-10-30 12:16:06,967 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 10:14:10,006 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 10:14:27,842 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 10:28:27,517 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 10:28:30,226 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 10:30:36,430 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 10:30:39,981 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 10:30:41,089 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 10:30:45,686 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 10:30:50,881 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 10:30:52,615 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 10:30:54,969 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 10:30:56,040 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 10:30:59,703 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 10:30:59,752 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 10:30:59,769 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 10:30:59,786 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 10:30:59,804 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 10:30:59,823 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 10:30:59,864 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 10:30:59,888 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 10:30:59,924 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 10:30:59,944 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 10:30:59,963 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 10:30:59,980 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 10:30:59,996 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 10:31:00,014 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 10:31:00,029 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 10:31:00,055 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 10:31:03,186 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 10:56:41,092 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 10:57:02,094 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:00:12,965 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:10:32,446 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:10:35,184 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:10:36,281 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:10:40,399 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:10:44,842 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:10:46,557 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:11:57,133 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:12:00,838 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:12:01,930 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:12:08,628 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:24:02,645 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:24:25,658 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:24:27,252 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:24:50,578 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:24:59,169 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:25:00,900 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:26:47,678 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:27:13,018 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:27:15,181 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:27:37,452 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:27:44,384 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:27:56,808 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:29:25,156 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:29:41,783 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:29:43,409 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:30:12,784 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:30:21,137 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:31:37,586 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:31:53,269 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:31:54,880 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:32:22,406 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:32:29,120 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:32:30,858 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:41:25,064 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:41:27,727 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:41:28,869 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:41:32,452 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:41:37,398 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:41:39,090 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:41:42,002 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:41:43,035 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:43:35,927 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:43:39,617 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:43:40,706 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:43:44,406 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:43:48,812 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 11:43:49,446 INFO j.u.l.Logger [main] Драйвер закрыт
+2021-11-03 11:43:50,527 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 11:43:53,604 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 11:43:54,673 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 11:43:58,044 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 11:43:58,089 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 11:43:58,108 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 11:43:58,124 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 11:43:58,142 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 11:43:58,161 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 11:43:58,180 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 11:43:58,197 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 11:43:58,216 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 11:43:58,237 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 11:43:58,253 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 11:43:58,297 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 11:43:58,339 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 11:43:58,355 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 11:43:58,371 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 11:43:58,397 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 11:44:01,742 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 12:17:02,213 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 12:17:32,728 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 12:17:34,870 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 12:18:02,811 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 12:18:09,504 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 12:18:10,159 INFO j.u.l.Logger [main] Драйвер закрыт
+2021-11-03 12:18:11,228 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 12:18:29,634 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 12:18:31,166 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 12:18:56,714 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 12:18:56,762 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 12:18:56,780 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 12:18:56,796 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 12:18:56,816 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 12:18:56,835 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 12:18:56,855 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 12:18:56,871 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 12:18:56,891 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 12:18:56,910 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 12:18:56,925 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 12:18:56,941 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 12:18:56,956 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 12:18:56,971 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 12:18:56,987 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 12:18:57,012 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 12:19:02,894 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 14:54:30,949 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 14:55:24,864 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 14:55:42,135 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 14:55:44,300 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 14:55:57,973 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 14:56:11,897 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 14:56:12,540 INFO j.u.l.Logger [main] Драйвер закрыт
+2021-11-03 14:56:13,610 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 14:56:31,789 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 14:56:33,335 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 14:56:49,297 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 14:56:49,344 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 14:56:49,363 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 14:56:49,379 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 14:56:49,399 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 14:56:49,420 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 14:56:49,440 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 14:56:49,457 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 14:56:49,478 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 14:56:49,498 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 14:56:49,517 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 14:56:49,532 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 14:56:49,547 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 14:56:49,564 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 14:56:49,580 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 14:56:49,609 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 14:56:55,129 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 15:02:42,193 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 15:03:00,149 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 15:03:02,314 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 15:03:21,564 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 15:03:28,600 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 15:03:29,241 INFO j.u.l.Logger [main] Драйвер закрыт
+2021-11-03 15:03:30,319 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 15:03:51,430 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 15:03:53,512 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 15:04:16,578 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 15:04:16,627 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 15:04:16,645 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 15:04:16,671 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 15:04:16,690 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 15:04:16,710 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 15:04:16,730 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 15:04:16,746 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 15:04:16,766 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 15:04:16,797 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 15:04:16,813 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 15:04:16,829 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 15:04:16,845 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 15:04:16,861 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 15:04:16,877 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 15:04:16,913 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 15:04:22,726 INFO j.u.l.Logger [main] Данные очищены
+2021-11-03 17:51:11,448 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 17:51:34,538 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 17:51:35,648 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 17:51:47,169 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 17:51:52,132 INFO j.u.l.Logger [main] Данные заполнены
+2021-11-03 17:51:52,751 INFO j.u.l.Logger [main] Драйвер закрыт
+2021-11-03 17:51:53,824 INFO j.u.l.Logger [main] Драйвер поднят
+2021-11-03 17:52:06,274 INFO j.u.l.Logger [main] Сайт открыт
+2021-11-03 17:52:07,290 INFO j.u.l.Logger [main] Авторизация прошла
+2021-11-03 17:52:24,166 INFO j.u.l.Logger [main] Раздел о себе открыт
+2021-11-03 17:52:24,212 INFO j.u.l.Logger [main] Имя - ОК
+2021-11-03 17:52:24,228 INFO j.u.l.Logger [main] Фамилия - ОК
+2021-11-03 17:52:24,243 INFO j.u.l.Logger [main] День рождения - ОК
+2021-11-03 17:52:24,262 INFO j.u.l.Logger [main] Страна - ОК
+2021-11-03 17:52:24,281 INFO j.u.l.Logger [main] Город - ОК
+2021-11-03 17:52:24,306 INFO j.u.l.Logger [main] Уровень английского - ОК
+2021-11-03 17:52:24,322 INFO j.u.l.Logger [main] Почта - ОК
+2021-11-03 17:52:24,341 INFO j.u.l.Logger [main] Телеграмм - ОК
+2021-11-03 17:52:24,360 INFO j.u.l.Logger [main] WhatsApp - ОК
+2021-11-03 17:52:24,376 INFO j.u.l.Logger [main] Номер Tg - ОК
+2021-11-03 17:52:24,393 INFO j.u.l.Logger [main] Номер WhatsApp - ОК
+2021-11-03 17:52:24,410 INFO j.u.l.Logger [main] Пол - ОК
+2021-11-03 17:52:24,426 INFO j.u.l.Logger [main] Компания - ОК
+2021-11-03 17:52:24,441 INFO j.u.l.Logger [main] Должность - ОК
+2021-11-03 17:52:24,498 INFO j.u.l.Logger [main] Данные заполнены верно
+2021-11-03 17:52:28,614 INFO j.u.l.Logger [main] Данные очищены

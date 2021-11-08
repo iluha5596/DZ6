@@ -1,11 +1,9 @@
 package otus.com;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -18,18 +16,18 @@ import otus.com.WBFactory.WebDriverFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.logging.Logger;
 
 public class BaseTest {
     protected org.apache.logging.log4j.Logger logger = LogManager.getLogger(Logger.class);
     protected WebDriver driver;
     protected WebDriverWait wait;
-
+    private String br;
     @BeforeClass
-    public void startUp(){
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("headless");
-        driver = WebDriverFactory.getDriver(Browsers.CHROME);
+    public void startUp() {
+        br = System.getProperty("browser").toUpperCase(Locale.ROOT).trim();
+        driver = WebDriverFactory.getDriver(Browsers.valueOf(br));
         logger.info("Драйвер поднят");
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);

@@ -1,26 +1,34 @@
 package otus.com;
+import cofig.ServerConfig;
+import cofig.User;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import otus.com.dto.UserDto;
 import otus.com.pages.*;
 
 
 public class Otus extends BaseTest {
 
+
     @Test
-    public void addingValidatingData ()  {
+    public void addingValidatingData() {
+        UserDto userDto = new UserDto();
+        ServerConfig cfg = ConfigFactory.create(ServerConfig.class);
+        User user = ConfigFactory.create(User.class);
         //Авторизация
         Authorization authorization = new Authorization(driver);
         authorization.openOtus();
-        authorization.auth();
+        authorization.auth(cfg.login(), cfg.password());
         //Переход в раздел о себе
-        SectionYourself sectionYourself = new SectionYourself(driver);
-        sectionYourself.openSectionYourself();
+        MainPage mainPage = new MainPage(driver);
+        mainPage.openSectionYourself();
         //Заполнение данных
-        FillDataLk fillDataLk = new FillDataLk(driver);
-        fillDataLk.dataLk();
+        Lk lk = new Lk(driver, userDto);
+        lk.fillDataLk();
         //Закрытие драйвера
         driver.quit();
         logger.info("Драйвер закрыт");
@@ -32,10 +40,10 @@ public class Otus extends BaseTest {
         //Авторизация
         authorization = new Authorization(driver);
         authorization.openOtus();
-        authorization.auth();
+        authorization.auth(cfg.login(), cfg.password());
         //Переход в раздел о себе
-        sectionYourself = new SectionYourself(driver);
-        sectionYourself.openSectionYourself();
+        mainPage = new MainPage(driver);
+        mainPage.openSectionYourself();
         //Проверка ранее введённых данных в ЛК
         Assert.assertEquals("Илья", driver.findElement(By.xpath("//input[@data-title=\"Имя\"]")).getAttribute("value"));
         logger.info("Имя - ОК");
@@ -83,9 +91,11 @@ public class Otus extends BaseTest {
         }
         logger.info("Данные заполнены верно");
         //Очистка данных
-        ClearDataLk clearDataLk = new ClearDataLk(driver);
-        clearDataLk.clear();
+        lk = new Lk(driver, userDto);
+        lk.clearDataLkOptionalFields();
 
     }
+
+
 
 }

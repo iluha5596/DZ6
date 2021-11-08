@@ -1,4 +1,6 @@
 package otus.com.pages;
+import cofig.ServerConfig;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,13 +27,11 @@ public class Authorization extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(buttonLogin));
     }
 
-    public void auth() {
-
-
+    public void auth(String login, String password) {
         driver.findElement(buttonLogin).click();
         wait.until(ExpectedConditions.elementToBeClickable(inputEmail));
-        driver.findElement(inputEmail).sendKeys(LoginPassword.LOGIN);
-        driver.findElement(inputPass).sendKeys(LoginPassword.PASSWORD);
+        driver.findElement(inputEmail).sendKeys(login);
+        driver.findElement(inputPass).sendKeys(password);
         driver.findElement(buttonEntry).click();
         logger.info("Авторизация прошла");
         wait.until(ExpectedConditions.elementToBeClickable(buttonMyСourse));

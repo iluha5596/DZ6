@@ -1,12 +1,7 @@
 package otus.com.pages;
-import cofig.ServerConfig;
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import otus.com.LoginPassword;
-
-
 
 
 public class Authorization extends BasePage {

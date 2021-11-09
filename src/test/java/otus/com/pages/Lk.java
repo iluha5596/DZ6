@@ -1,14 +1,15 @@
 package otus.com.pages;
+import cofig.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import otus.com.dto.UserDto;
 
 public class Lk extends BasePage {
 
-    private UserDto userDto;
-    public Lk(WebDriver driver, UserDto userDto) {
+    private User userDto;
+    public Lk(WebDriver driver, User userDto) {
         super(driver);
+        this.userDto = userDto;
     }
     private By inputName = By.xpath("//input[@data-title=\"Имя\"]");
     private By inputLastName = By.xpath("//input[@data-title=\"Фамилия\"]");
@@ -55,10 +56,10 @@ public class Lk extends BasePage {
         driver.findElement(inputCompany).clear();
         driver.findElement(inputWork).clear();
         //Заполнение данных
-        driver.findElement(inputName).sendKeys(userDto.getUserFirstName());
-        driver.findElement(inputLastName).sendKeys(userDto.getUserLastName());
-        driver.findElement(inputBlogName).sendKeys(userDto.getUserName());
-        driver.findElement(inputDateBirth).sendKeys(userDto.getUserDataBirth());
+        driver.findElement(inputName).sendKeys(userDto.firstName());
+        driver.findElement(inputLastName).sendKeys(userDto.lastName());
+        driver.findElement(inputBlogName).sendKeys(userDto.name());
+        driver.findElement(inputDateBirth).sendKeys(userDto.dataBirth());
         //Страна
         if(!driver.findElement(labelCountry).getText().contains("Россия")) {
             driver.findElement(divEmpty).click();
@@ -79,18 +80,18 @@ public class Lk extends BasePage {
         //Контактная информация
         driver.findElement(spanCommunication).click();
         driver.findElement(buttonWhatsapp).click();
-        driver.findElement(inputNumberPhone1).sendKeys(userDto.getNumberPhone1());
+        driver.findElement(inputNumberPhone1).sendKeys(userDto.numberPhone1());
         driver.findElement(buttonAdd).click();
         driver.findElement(spanCommunication).click();
         driver.findElement(buttonTelegram).click();
-        driver.findElement(inputNumberPhone2).sendKeys(userDto.getNumberPhone2());
+        driver.findElement(inputNumberPhone2).sendKeys(userDto.numberPhone2());
         //Пол
         driver.findElement(selectGender).click();
         driver.findElement(optionMen).click();
         //Место работы
-        driver.findElement(inputCompany).sendKeys(userDto.getCompany());
+        driver.findElement(inputCompany).sendKeys(userDto.company());
         //Должность
-        driver.findElement(inputWork).sendKeys(userDto.getWork());
+        driver.findElement(inputWork).sendKeys(userDto.work());
         //Сохранение данных
         driver.findElement(buttonSave).click();
         logger.info("Данные заполнены");
@@ -106,23 +107,23 @@ public class Lk extends BasePage {
         logger.info("Данные очищены");
     }
 
-    public void checkValues () {
+    public UserDto actualValues () {
         UserDto userDto = new UserDto();
-        String checkFirstName = driver.findElement(inputName).getText();
-        String checkLastName = driver.findElement(inputLastName).getText();
-        String checkName = driver.findElement(inputName).getText();
-        String checkDateBirth = driver.findElement(inputDateBirth).getText();
+        String checkFirstName = driver.findElement(inputName).getAttribute("value");
+        String checkLastName = driver.findElement(inputLastName).getAttribute("value");
+        String checkName = driver.findElement(inputBlogName).getAttribute("value");
+        String checkDateBirth = driver.findElement(inputDateBirth).getAttribute("value");
         String checkCountry = driver.findElement(labelCountry).getText();
         String checkCity = driver.findElement(inputCity).getText();
         String checkLevelEnglish = driver.findElement(inputEnglishLevel).getText();
-        String checkEmail= driver.findElement(inputEmail).getText();
+        String checkEmail= driver.findElement(inputEmail).getAttribute("value");
         String checkCommunicationMethodTelegram = driver.findElement(divTelegram).getText();
         String checkCommunicationMethodWhatsApp = driver.findElement(divWhatsApp).getText();
-        String checkCommunicationPhone1 = driver.findElement(inputNumberPhone1).getText();
-        String checkCommunicationPhone2 = driver.findElement(inputNumberPhone2).getText();
-        String checkGender = driver.findElement(selectGender).getText();
-        String checkCompanyName = driver.findElement(inputCompanyName).getText();
-        String checkWorkName = driver.findElement(inputWorkName).getText();
+        String checkCommunicationPhone1 = driver.findElement(inputNumberPhone1).getAttribute("value");
+        String checkCommunicationPhone2 = driver.findElement(inputNumberPhone2).getAttribute("value");
+        String checkGender = driver.findElement(optionMen).getText();
+        String checkCompanyName = driver.findElement(inputCompanyName).getAttribute("value");
+        String checkWorkName = driver.findElement(inputWorkName).getAttribute("value");
 
         userDto.setUserFirstName(checkFirstName);
         userDto.setUserLastName(checkLastName);
@@ -139,6 +140,8 @@ public class Lk extends BasePage {
         userDto.setGender(checkGender);
         userDto.setCompany(checkCompanyName);
         userDto.setWork(checkWorkName);
+
+        return userDto;
 
     }
 }

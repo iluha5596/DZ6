@@ -68,6 +68,34 @@ public class UserDto {
         this.numberPhone2 = numberPhone2;
     }
 
+    public String getCountry() {
+        return country;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getLevelEnglish() {
+        return levelEnglish;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getCommunicationMethodTelegram() {
+        return communicationMethodTelegram;
+    }
+
+    public String getCommunicationMethodWhatsApp() {
+        return communicationMethodWhatsApp;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
     private String country;
 
     public void setCountry(String country) {
@@ -111,9 +139,6 @@ public class UserDto {
     private String work;
     private String numberPhone1;
     private String numberPhone2;
-
-
-
 
 
 }

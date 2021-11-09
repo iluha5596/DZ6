@@ -5,10 +5,11 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import otus.com.dto.UserDto;
 import otus.com.pages.*;
+
+import static org.testng.AssertJUnit.assertEquals;
 
 
 public class Otus extends BaseTest {
@@ -16,7 +17,6 @@ public class Otus extends BaseTest {
 
     @Test
     public void addingValidatingData() {
-        UserDto userDto = new UserDto();
         ServerConfig cfg = ConfigFactory.create(ServerConfig.class);
         User user = ConfigFactory.create(User.class);
         //Авторизация
@@ -27,7 +27,7 @@ public class Otus extends BaseTest {
         MainPage mainPage = new MainPage(driver);
         mainPage.openSectionYourself();
         //Заполнение данных
-        Lk lk = new Lk(driver, userDto);
+        Lk lk = new Lk(driver, user);
         lk.fillDataLk();
         //Закрытие драйвера
         driver.quit();
@@ -45,42 +45,31 @@ public class Otus extends BaseTest {
         mainPage = new MainPage(driver);
         mainPage.openSectionYourself();
         //Проверка ранее введённых данных в ЛК
-        Assert.assertEquals("Илья", driver.findElement(By.xpath("//input[@data-title=\"Имя\"]")).getAttribute("value"));
-        logger.info("Имя - ОК");
-        Assert.assertEquals("Пантиков", driver.findElement(By.xpath("//input[@data-title=\"Фамилия\"]")).getAttribute("value"));
-        logger.info("Фамилия - ОК");
-        Assert.assertEquals("05.07.1996", driver.findElement(By.xpath("//input[@title=\"День рождения\"]")).getAttribute("value"));
-        logger.info("День рождения - ОК");
+        Lk actualDataLk = new Lk(driver, user);
+        UserDto actualDto = actualDataLk.actualValues();
+        assertEquals(actualDto.getUserFirstName(), user.firstName());
+        assertEquals(actualDto.getUserLastName(), user.lastName());
+        assertEquals(actualDto.getUserName(), user.name());
+        assertEquals(actualDto.getUserDataBirth(), user.dataBirth());
         //Страна
-        Assert.assertEquals("Россия", driver.findElement(By.cssSelector(".js-lk-cv-dependent-master > label:nth-child(1) > div:nth-child(2)")).getText());
-        logger.info("Страна - ОК");
+        assertEquals(actualDto.getCountry(), user.country());
         //Город
-        Assert.assertEquals("Москва", driver.findElement(By.xpath("//input[@data-title=\"Город\"]/..//div")).getText());
-        logger.info("Город - ОК");
+        assertEquals(actualDto.getCity(), user.city());
         //Уровень английского
-        Assert.assertEquals("Элементарный уровень (Elementary)", driver.findElement(By.xpath("//input[@data-title=\"Уровень знания английского языка\"]/..//div")).getText());
-        logger.info("Уровень английского - ОК");
+        assertEquals(actualDto.getLevelEnglish(),user.levelEnglish());
         //Почта
-        Assert.assertEquals("pantik96@mail.ru", driver.findElement(By.xpath("(//input[@name=\"email\"])[1]")).getAttribute("value"));
-        logger.info("Почта - ОК");
+        assertEquals(actualDto.getEmail(), user.email());
         //Способ связи
-        Assert.assertEquals("Тelegram", driver.findElement(By.xpath("(//div[@class=\"input input_full lk-cv-block__input input_straight-bottom-right input_straight-top-right input_no-border-right lk-cv-block__input_fake lk-cv-block__input_select-fake js-custom-select-presentation\"])[1]")).getText());
-        logger.info("Телеграмм - ОК");
-        Assert.assertEquals("WhatsApp", driver.findElement(By.xpath("(//div[@class=\"input input_full lk-cv-block__input input_straight-bottom-right input_straight-top-right input_no-border-right lk-cv-block__input_fake lk-cv-block__input_select-fake js-custom-select-presentation\"])[2]")).getText());
-        logger.info("WhatsApp - ОК");
-        Assert.assertEquals("+79999999999", driver.findElement(By.xpath("//input[@name=\"contact-0-value\"]")).getAttribute("value"));
-        logger.info("Номер Tg - ОК");
-        Assert.assertEquals("+79999999999", driver.findElement(By.xpath("//input[@name=\"contact-1-value\"]")).getAttribute("value"));
-        logger.info("Номер WhatsApp - ОК");
+        assertEquals(actualDto.getCommunicationMethodTelegram(), user.communicationMethodTelegram());
+        assertEquals(actualDto.getCommunicationMethodWhatsApp(), user.communicationMethodWhatsApp());
+        assertEquals(actualDto.getNumberPhone1(), user.numberPhone1());
+        assertEquals(actualDto.getNumberPhone2(), user.numberPhone2());
         //Пол
-        Assert.assertEquals("m", driver.findElement(By.xpath("//select[@name=\"gender\"]")).getAttribute("value"));
-        logger.info("Пол - ОК");
+        assertEquals(actualDto.getGender(),user.genderM());
         //Компания
-        Assert.assertEquals("ПАО Абсолют банк", driver.findElement(By.xpath("//input[@id=\"id_company\"]")).getAttribute("value"));
-        logger.info("Компания - ОК");
+        assertEquals(actualDto.getCompany(), user.company());
         //Должность
-        Assert.assertEquals("QA Engineer", driver.findElement(By.xpath("//input[@id=\"id_work\"]")).getAttribute("value"));
-        logger.info("Должность - ОК");
+        assertEquals(actualDto.getWork(), user.work());
         //Проверка чекбокса
         if (driver.findElement(By.xpath("//input[@title=\"Полный день\"]//..")).isSelected())
         {
@@ -91,7 +80,7 @@ public class Otus extends BaseTest {
         }
         logger.info("Данные заполнены верно");
         //Очистка данных
-        lk = new Lk(driver, userDto);
+        lk = new Lk(driver, user);
         lk.clearDataLkOptionalFields();
 
     }

@@ -6,14 +6,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import otus.com.WBFactory.Browsers;
+import otus.com.WBFactory.WebDriverFactory;
 import otus.com.dto.UserDto;
 import otus.com.pages.*;
+
+import java.util.Locale;
 
 import static org.testng.AssertJUnit.assertEquals;
 
 
 public class Otus extends BaseTest {
-
+    private String br;
 
     @Test
     public void addingValidatingData() {
@@ -33,7 +37,8 @@ public class Otus extends BaseTest {
         driver.quit();
         logger.info("Драйвер закрыт");
         //Поднять драйвер
-        driver = new ChromeDriver();
+        br = System.getProperty("browser").toUpperCase(Locale.ROOT).trim();
+        driver = WebDriverFactory.getDriver(Browsers.valueOf(br));
         logger.info("Драйвер поднят");
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 10);

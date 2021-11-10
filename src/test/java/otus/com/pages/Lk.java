@@ -45,8 +45,6 @@ public class Lk extends BasePage {
     private By inputWorkName = By.xpath("//input[@id=\"id_work\"]");
     private By inputEnglishLevel = By.xpath("//input[@data-title=\"Уровень знания английского языка\"]/..//div");
 
-
-
     public void fillDataLk() {
         //Очистка данных
         driver.findElement(inputName).clear();
@@ -109,37 +107,37 @@ public class Lk extends BasePage {
 
     public UserDto actualValues () {
         UserDto userDto = new UserDto();
-        String checkFirstName = driver.findElement(inputName).getAttribute("value");
-        String checkLastName = driver.findElement(inputLastName).getAttribute("value");
-        String checkName = driver.findElement(inputBlogName).getAttribute("value");
-        String checkDateBirth = driver.findElement(inputDateBirth).getAttribute("value");
-        String checkCountry = driver.findElement(labelCountry).getText();
-        String checkCity = driver.findElement(inputCity).getText();
-        String checkLevelEnglish = driver.findElement(inputEnglishLevel).getText();
-        String checkEmail= driver.findElement(inputEmail).getAttribute("value");
-        String checkCommunicationMethodTelegram = driver.findElement(divTelegram).getText();
-        String checkCommunicationMethodWhatsApp = driver.findElement(divWhatsApp).getText();
-        String checkCommunicationPhone1 = driver.findElement(inputNumberPhone1).getAttribute("value");
-        String checkCommunicationPhone2 = driver.findElement(inputNumberPhone2).getAttribute("value");
-        String checkGender = driver.findElement(optionMen).getText();
-        String checkCompanyName = driver.findElement(inputCompanyName).getAttribute("value");
-        String checkWorkName = driver.findElement(inputWorkName).getAttribute("value");
+        String actualFirstName = driver.findElement(inputName).getAttribute("value");
+        String actualLastName = driver.findElement(inputLastName).getAttribute("value");
+        String actualName = driver.findElement(inputBlogName).getAttribute("value");
+        String actualDateBirth = driver.findElement(inputDateBirth).getAttribute("value");
+        String actualCountry = driver.findElement(labelCountry).getText();
+        String actualCity = driver.findElement(inputCity).getText();
+        String actualLevelEnglish = driver.findElement(inputEnglishLevel).getText();
+        String actualEmail= driver.findElement(inputEmail).getAttribute("value");
+        String actualCommunicationMethodTelegram = driver.findElement(divTelegram).getText();
+        String actualCommunicationMethodWhatsApp = driver.findElement(divWhatsApp).getText();
+        String actualCommunicationPhone1 = driver.findElement(inputNumberPhone1).getAttribute("value");
+        String actualCommunicationPhone2 = driver.findElement(inputNumberPhone2).getAttribute("value");
+        String actualGender = driver.findElement(optionMen).getText();
+        String actualCompanyName = driver.findElement(inputCompanyName).getAttribute("value");
+        String actualWorkName = driver.findElement(inputWorkName).getAttribute("value");
 
-        userDto.setUserFirstName(checkFirstName);
-        userDto.setUserLastName(checkLastName);
-        userDto.setUserName(checkName);
-        userDto.setUserDataBirth(checkDateBirth);
-        userDto.setCountry(checkCountry);
-        userDto.setCity(checkCity);
-        userDto.setLevelEnglish(checkLevelEnglish);
-        userDto.setEmail(checkEmail);
-        userDto.setCommunicationMethodTelegram(checkCommunicationMethodTelegram);
-        userDto.setCommunicationMethodWhatsApp(checkCommunicationMethodWhatsApp);
-        userDto.setNumberPhone1(checkCommunicationPhone1);
-        userDto.setNumberPhone2(checkCommunicationPhone2);
-        userDto.setGender(checkGender);
-        userDto.setCompany(checkCompanyName);
-        userDto.setWork(checkWorkName);
+        userDto.setUserFirstName(actualFirstName);
+        userDto.setUserLastName(actualLastName);
+        userDto.setUserName(actualName);
+        userDto.setUserDataBirth(actualDateBirth);
+        userDto.setCountry(actualCountry);
+        userDto.setCity(actualCity);
+        userDto.setLevelEnglish(actualLevelEnglish);
+        userDto.setEmail(actualEmail);
+        userDto.setCommunicationMethodTelegram(actualCommunicationMethodTelegram);
+        userDto.setCommunicationMethodWhatsApp(actualCommunicationMethodWhatsApp);
+        userDto.setNumberPhone1(actualCommunicationPhone1);
+        userDto.setNumberPhone2(actualCommunicationPhone2);
+        userDto.setGender(actualGender);
+        userDto.setCompany(actualCompanyName);
+        userDto.setWork(actualWorkName);
 
         return userDto;
 

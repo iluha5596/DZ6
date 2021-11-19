@@ -1,5 +1,9 @@
 package otus.com.dto;
 
+import org.openqa.selenium.By;
+
+import java.lang.constant.Constable;
+
 public class UserDto {
 
     private String userFirstName;

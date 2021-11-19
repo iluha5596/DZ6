@@ -27,5 +27,9 @@ dependencies {
 test {
     useTestNG()
     systemProperty 'browser', System.getProperty('browser')
+    systemProperty 'login', System.getProperty('login')
+    systemProperty 'pass', System.getProperty('pass')
+
+
 
 }

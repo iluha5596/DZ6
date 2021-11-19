@@ -3,7 +3,6 @@ import cofig.ServerConfig;
 import cofig.User;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import otus.com.WBFactory.Browsers;
@@ -26,7 +25,7 @@ public class Otus extends BaseTest {
         //Авторизация
         Authorization authorization = new Authorization(driver);
         authorization.openOtus();
-        authorization.auth(cfg.login(), cfg.password());
+        authorization.auth();
         //Переход в раздел о себе
         MainPage mainPage = new MainPage(driver);
         mainPage.openSectionYourself();
@@ -45,7 +44,7 @@ public class Otus extends BaseTest {
         //Авторизация
         authorization = new Authorization(driver);
         authorization.openOtus();
-        authorization.auth(cfg.login(), cfg.password());
+        authorization.auth();
         //Переход в раздел о себе
         mainPage = new MainPage(driver);
         mainPage.openSectionYourself();

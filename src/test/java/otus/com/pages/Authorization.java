@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-
 public class Authorization extends BasePage {
 
     public Authorization(WebDriver driver) {
@@ -15,6 +14,8 @@ public class Authorization extends BasePage {
     private By inputPass = By.xpath("//input[@type=\"password\"]");
     private By buttonEntry = By.xpath("(//button[@type=\"submit\"])[3]");
     private By buttonMyСourse = By.xpath("(//a[@href=\"/learning/\"])[1]");
+    private String login;
+    private String pass;
 
     public void openOtus() {
         driver.get(OTUS_URL);
@@ -22,11 +23,13 @@ public class Authorization extends BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(buttonLogin));
     }
 
-    public void auth(String login, String password) {
+    public void auth() {
+        login = System.getProperty("login").trim();
+        pass = System.getProperty("pass").trim();
         driver.findElement(buttonLogin).click();
         wait.until(ExpectedConditions.elementToBeClickable(inputEmail));
         driver.findElement(inputEmail).sendKeys(login);
-        driver.findElement(inputPass).sendKeys(password);
+        driver.findElement(inputPass).sendKeys(pass);
         driver.findElement(buttonEntry).click();
         logger.info("Авторизация прошла");
         wait.until(ExpectedConditions.elementToBeClickable(buttonMyСourse));
